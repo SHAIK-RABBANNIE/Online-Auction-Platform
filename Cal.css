@@ -1,0 +1,102 @@
+/* Cal.css */
+
+.calendar-container {
+    max-width: 400px; /* Set a max width for the calendar */
+    margin: 20px auto; /* Center the calendar on the page */
+    padding: 20px; /* Add some padding */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: #fff; /* White background */
+}
+
+h2 {
+    text-align: center; /* Center the heading */
+    font-size: 24px; /* Heading font size */
+    margin-bottom: 20px; /* Margin below the heading */
+    color: #333; /* Dark gray color for the heading */
+}
+
+.date-time {
+    text-align: center; /* Center the date and time text */
+    font-size: 20px; /* Font size for the date and time */
+    line-height: 1.5; /* Line height for better spacing */
+    color: #555; /* Slightly lighter gray color for text */
+}
+
+.calendar-grid {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.calendar-header {
+    text-align: center; /* Center the month/year header */
+    margin-bottom: 10px; /* Margin below the header */
+}
+
+.calendar-weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 7 columns for days of the week */
+    text-align: center; /* Center align text */
+}
+
+.weekday {
+    font-weight: bold; /* Bold text for weekdays */
+    color: #333; /* Dark gray color */
+}
+
+.calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 7 columns for days of the month */
+}
+
+.calendar-day {
+    padding: 10px; /* Padding for each day */
+    text-align: center; /* Center text */
+    border: 1px solid #ddd; /* Light border around each day */
+}
+
+.empty {
+    border: none; /* No border for empty cells */
+    background-color: transparent; /* Transparent background for empty cells */
+}
+
+/* Optional: Add some responsive styles */
+@media (max-width: 480px) {
+    .calendar-container {
+        width: 90%; /* Adjust width on smaller screens */
+    }
+
+    h2 {
+        font-size: 20px; /* Smaller font size on mobile */
+    }
+
+    .date-time {
+        font-size: 18px; /* Smaller font size on mobile */
+    }
+
+    .calendar-day {
+        padding: 8px; /* Smaller padding on mobile */
+    }
+}
+/* Cal.css */
+
+/* Previous styles... */
+
+.calendar-day {
+    padding: 10px; /* Padding for each day */
+    text-align: center; /* Center text */
+    border: 1px solid #ddd; /* Light border around each day */
+    cursor: pointer; /* Change cursor to pointer for clickable days */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.calendar-day.registered {
+    background-color: green; /* Green background for registered dates */
+    color: white; /* White text color for registered dates */
+}
+.calendar-day.registered {
+    background-color: green; /* Green background for registered dates */
+    color: white; /* White text color for registered dates */
+}

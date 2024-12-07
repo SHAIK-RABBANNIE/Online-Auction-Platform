@@ -1,0 +1,60 @@
+/* General styling */
+.bid-cancellation-container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Table styling */
+  .bid-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .bid-table th, .bid-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .bid-table th {
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: left;
+  }
+  
+  .bid-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .bid-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Cancelled row styling */
+  .bid-table .cancelled {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  /* Button styling */
+  .cancel-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cancel-button:hover {
+    background-color: #cc0000;
+  }
+  

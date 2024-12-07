@@ -1,0 +1,115 @@
+/* Admin.css */
+
+/* Main admin container */
+.admin-container {
+    font-family: Arial, sans-serif;
+    max-width: 800px; /* Increased width for better layout */
+    margin: 40px auto; /* Center the container vertically and horizontally */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Headers */
+  h2, h3 {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Auction list styling */
+  .auctions-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .auctions-list th, .auctions-list td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .auctions-list th {
+    background-color: #f2f2f2;
+    color: #555;
+  }
+  
+  .auctions-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .auctions-list button {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .auctions-list button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Forms and content styling */
+  .add-auction-form, .edit-auction-form, .website-content {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-auction-form input,
+  .edit-auction-form input,
+  .add-auction-form select,
+  .edit-auction-form select,
+  .website-content textarea {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .add-auction-form button,
+  .edit-auction-form button,
+  .website-content button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-auction-form button:hover,
+  .edit-auction-form button:hover,
+  .website-content button:hover {
+    background-color: #218838;
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: red;
+    font-size: 0.9em;
+  }
+  
+  /* Disable textarea resizing */
+  textarea {
+    resize: none;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .admin-container {
+      padding: 10px;
+    }
+  
+    .auctions-list table, .auctions-list th, .auctions-list td {
+      font-size: 0.9em;
+    }
+  }
+  

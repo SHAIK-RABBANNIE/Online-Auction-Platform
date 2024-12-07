@@ -1,0 +1,50 @@
+.verification-container {
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(249, 249, 249, 0.9); /* Slightly transparent to see the background */
+    background-image: url('https://static.vecteezy.com/system/resources/previews/015/132/103/non_2x/light-cyan-background-images-hd-pictures-and-wallpaper-for-free-download-free-photo.jpg'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+}
+
+.verification-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.verify-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.verify-button:hover {
+    background-color: #45a049;
+}

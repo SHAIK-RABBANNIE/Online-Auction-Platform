@@ -1,0 +1,93 @@
+/* General container styling */
+.home-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.Do6OVnaPUCOpU46lqYZNxgAAAA&pid=Api&P=0&h=180'); /* Replace with your image URL */
+    background-size: cover; /* This ensures the image covers the entire container */
+    background-position: center; /* This centers the image */
+    background-repeat: repeat; /* Prevents the image from repeating */
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: rgba(51, 51, 51, 0.8); /* Slight transparency for better text visibility */
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Auction items styling */
+.auction-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.auction-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 150px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.auction-item:hover {
+    transform: scale(1.05);
+}
+
+.auction-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.auction-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Heading and paragraph styling */
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Auction Items Heading */
+h2 {
+    font-size: 28px;
+    color: #555;
+    margin-bottom: 20px;
+}
